@@ -1,12 +1,10 @@
-# 
+# EcMOdel
 
 ## Our goal is to develop a machine learning prediction algorithm for neurological injury in pediatric cardiac patients.
 
-Why should we solve it?
+### The biggest risk factor for Pediatric EcMo patients is stroke.  We have built a framework to statistically assess actionable events leading to stroke and improve neurological outcomes.  
 
-What is ?
-
-Overview Diagram
+# Overview Diagram
 
 How to use
 
@@ -20,13 +18,6 @@ Installation options:
 
 We provide two options for installing : Docker or directly from Github.
 
-Docker
-
-The Docker image contains as well as a webserver and FTP server in case you want to deploy the FTP server. It does also contain a web server for testing the main website (but should only be used for debug purposes).
-
-docker pull ncbihackathons/<this software> command to pull the image from the DockerHub
-docker run ncbihackathons/<this software> Run the docker image from the master shell script
-Edit the configuration files as below
 Installing from Github
 
 git clone https://github.com/NCBI-Hackathons/<this software>.git
@@ -43,19 +34,3 @@ We tested four different tools with . They can be found in server/tools/ .
 
 Additional Functionality
 
-DockerFile
-
-comes with a Dockerfile which can be used to build the Docker image.
-
-git clone https://github.com/NCBI-Hackathons/<this software>.git
-cd server
-docker build --rm -t <this software>/<this software> .
-docker run -t -i <this software>/<this software>
-Website
-
-There is also a Docker image for hosting the main website. This should only be used for debug purposes.
-
-git clone https://github.com/NCBI-Hackathons/<this software>.git
-cd Website
-docker build --rm -t <this software>/website .
-docker run -t -i <this software>/website
