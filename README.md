@@ -20,7 +20,7 @@ Run 'main.ipynb' to train/test model.
 
 Final results are saved in '/results' folder.
 
-## Contributor 
+## Contributors 
 
  - Abdelaziz Farhat, MD - UT Southwestern, Children's Medical, Pediatric Critical Care
  - Neel Shah, MD  - UT Southwestern and Children's Medical, Pediatric Critical Care
