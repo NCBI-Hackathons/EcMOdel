@@ -4,33 +4,20 @@
 
 ### The biggest risk factor for Pediatric EcMo patients is stroke.  We have built a framework to statistically assess actionable events leading to stroke and improve neurological outcomes.  
 
-# Overview Diagram
 
-How to use
+## How to use
+### * Required Library
+ - Python 3.6
+ - Keras
+ 
+### Installing from Github
+https://github.com/NCBI-Hackathons/EcMOdel.git
 
-Software Workflow Diagram
+Add raw data into '/data' folder.
 
-File structure diagram
+Run 'main.ipynb' to train/test model.
 
-Define paths, variable names, etc
+Final results are saved in '/results' folder.
 
-Installation options:
 
-We provide two options for installing : Docker or directly from Github.
-
-Installing from Github
-
-git clone https://github.com/NCBI-Hackathons/<this software>.git
-Edit the configuration files as below
-sh server/<this software>.sh to test
-Add cron job as required (to execute .sh script)
 Configuration
-
-Examples here
-
-Testing
-
-We tested four different tools with . They can be found in server/tools/ .
-
-Additional Functionality
-
